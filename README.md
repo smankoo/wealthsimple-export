@@ -49,6 +49,22 @@ Install from [addons.mozilla.org](https://addons.mozilla.org/en-CA/firefox/addon
 3. Click "Load Temporary Add-on"
 4. Select `manifest.json` from this directory
 
+## Building the .xpi
+
+The `.xpi` is just a zip file with `manifest.json` at the root:
+
+```bash
+zip -r wealthsimple-export.xpi manifest.json content.js icons/ LICENSE README.md
+```
+
+Or use Mozilla's `web-ext` tool for validation + build:
+
+```bash
+npx web-ext build
+```
+
+This outputs a `.zip` in `web-ext-artifacts/`. AMO accepts both `.zip` and `.xpi`.
+
 ## How it works
 
 The extension runs as a content script on `my.wealthsimple.com`. It reads the OAuth token from your existing session cookie and calls Wealthsimple's GraphQL API to fetch transaction data. No data is sent anywhere — everything stays in your browser and the CSV is generated locally.

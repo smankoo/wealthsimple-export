@@ -12,9 +12,9 @@ The exported CSV uses YNAB's expected format:
 
 ```
 Date,Payee,Memo,Amount
-2026-03-02,SUMEET,Interac e-Transfer from SUMEET,1500.00
+2026-03-02,Jane Doe,Interac e-Transfer from Jane Doe,1500.00
 2026-03-01,Wealthsimple,Interest payment,12.34
-2026-02-20,BMO MASTERCARD,Bill pay,-8212.60
+2026-02-20,ACME Corp,Bill pay,-150.00
 ```
 
 - Date: `YYYY-MM-DD`

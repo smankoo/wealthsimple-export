@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <rect width="48" height="48" rx="8" fill="#222"/>
+  <text x="24" y="20" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="#fff">W$</text>
+  <path d="M14 28 l6 6 l-3 0 l0 4 l-6 0 l0 -4 l-3 0 z" fill="#4CAF50" transform="translate(10,-2)"/>
+  <text x="24" y="40" text-anchor="middle" font-family="system-ui,sans-serif" font-size="8" font-weight="600" fill="#4CAF50">CSV</text>
+</svg>
